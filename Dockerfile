@@ -7,7 +7,8 @@ FROM debian:12.7-slim
             imagemagick \
             make \
             poppler-utils \
-            python3 && \
+            python3 \
+            python3-tk && \
         rm --recursive --force "/var/lib/apt/lists/"
     WORKDIR "/app"
     RUN update-alternatives --install "/usr/local/bin/python" python "/usr/bin/python3" 3
