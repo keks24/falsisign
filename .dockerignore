@@ -16,3 +16,6 @@ Dockerfile
 
 # ignore the directory ".git"
 .git
+
+# ignore the file ".gitattributes"
+.gitattributes
