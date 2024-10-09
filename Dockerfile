@@ -3,7 +3,7 @@ FROM debian:12.7-slim
     RUN apt-get update && \
         apt-get install --no-install-recommends --assume-yes \
             coreutils \
-            git \
+            ghostscript \
             imagemagick \
             make \
             poppler-utils \
